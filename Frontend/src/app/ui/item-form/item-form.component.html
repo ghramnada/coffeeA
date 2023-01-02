@@ -1,0 +1,38 @@
+<form [formGroup]="form"(ngSubmit)="ONSUB()">
+  <p>
+    <mat-form-field appearance="legacy">
+      <input matInput placeholder="Product Name" formControlName="prod_name">
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field appearance="legacy">
+      <input matInput placeholder="Quality" formControlName="quality">
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field appearance="legacy">
+      <input matInput placeholder="Quantity" formControlName="quantity">
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field appearance="legacy">
+      <input matInput placeholder="Price" formControlName="price">
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field appearance="legacy">
+      <input matInput placeholder="Origin Country" formControlName="producing_country">
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field appearance="legacy">
+      <input matInput placeholder="Goverment Agent" formControlName="goverment_agent">
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field appearance="legacy">
+      <input matInput placeholder="Shippement Date" formControlName="shippement_date">
+    </mat-form-field>
+  </p>
+  <button mat-button color= "primary" type = "submit">submit</button>
+</form>
